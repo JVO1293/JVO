@@ -1,0 +1,8 @@
+0 | size | price | price per topping | prep time | cook time | oven space units
+1 | name
+2 | name | price | prep time | cook time | oven space units
+
+# 0 means pizza
+# 1 means topping
+# 2 means other
+# price per topping is for a whole pizza; half pizza is half the topping price

@@ -1,0 +1,15 @@
+0|small|8.00|1.00|8|13|1
+0|medium|11.00|1.50|10|15|2
+0|large|16.00|2.00|15|20|4
+1|Pepperoni
+1|Sausage
+1|Onions
+1|Peppers
+1|Mushrooms
+2|Tossed Salad|5.00|5|0|0
+2|Pizza Logs|6.00|0|10|1
+
+# 0 means pizza
+# 1 means topping
+# 2 means other
+# price per topping is for a whole pizza; half pizza is half the topping price.
