@@ -60,7 +60,7 @@ Limitations
 
 Bugs
 ---------------
-* There is possibly one threading bug that will cause a ConcurrentModification exception to be thrown. Since it is a non-deterministic bugs, it is difficult to tell if the issue has been truly solved.
+* There is possibly one threading bug that will cause a ConcurrentModification exception to be thrown. Since it is a non-deterministic bug, it is difficult to tell if the issue has been truly resolved.
 * Doesn't show toppings as being on the left or right sides in the "Add Topping" window. The price is halved correctly, but the radio buttons do not update when the topping is reselected.
 	* If the program isn't closed by returning to the "Welcome" screen and clicking the exit button, the code (the javaw.exe process) does not exit.
 
