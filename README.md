@@ -1,4 +1,4 @@
-pizza-delivery-system
+Pizza Delivery System (PDS)
 =====================
 
 Team of 6 developers completed the project based on customer requirements.
@@ -48,26 +48,25 @@ Here is an example config.txt file that has 1 chef, 2 drivers, and 3 ovens of si
 Release notes
 ==============
 
-Limitations:
+Limitations
 ---------------
-    - Cannot remove or modify an item or topping from an order once it has been added. This means that you cannot place a new order until your previous order has been completed (you will notice that Add/Modify order button will not do anything if there is a current order in progress).
-    - Driver will only delivery one order at a time.
-    - If you press Add/Modify Order to place a new order, you cannot not place an order after that point (you must place an order).
-    - The Manager views that are suppose to be accessible from the Welcome Screen are not implemented yet.
-    - You must manually refresh the View Orders table to see the status of an order change.
-    - Time estimation has not been incorporated into the UI yet.
-    - The database of customers and orders is not saved between different launches of pds.jar.
+* Cannot remove or modify an item or topping from an order once it has been added. This means that you cannot place a new order until your previous order has been completed (you will notice that Add/Modify order button will not do anything if there is a current order in progress).
+* Driver will only delivery one order at a time.
+* If you press Add/Modify Order to place a new order, you cannot not place an order after that point (you must place an order).
+* The Manager views that are suppose to be accessible from the Welcome Screen are not implemented yet.
+* You must manually refresh the View Orders table to see the status of an order change.
+* Time estimation has not been incorporated into the UI yet.
+* The database of customers and orders is not saved between different launches of pds.jar.
 
-Bugs:
+Bugs
 ---------------
-    - There is possibly one threading bug that will cause a ConcurrentModification exception to be thrown. However, I believe I have fixed the bug. But with all non-deterministic bugs, it's hard to tell if it's truly solved.
-  - Doesn't show toppings as being on the left or right sides in the "Add Topping" window. The price is halved correctly, but the radio buttons do not update when the topping is re-selected.
-	- If the program isn't closed by returning to the "Welcome" screen and clicking the exit button, the code (the javaw.exe process) does not exit.
-	
-===========================
+* There is possibly one threading bug that will cause a ConcurrentModification exception to be thrown. However, I believe I have fixed the bug. But with all non-deterministic bugs, it's hard to tell if it's truly solved.
+* Doesn't show toppings as being on the left or right sides in the "Add Topping" window. The price is halved correctly, but the radio buttons do not update when the topping is re-selected.
+	* If the program isn't closed by returning to the "Welcome" screen and clicking the exit button, the code (the javaw.exe process) does not exit.
+
 Other files in public_html
 ===========================
-README.txt - this file
+README.md - this file
 pds.jar - the executable jar file
 menu.txt - the menu file read by the executable file at startup
 config.txt - various parameter file read by the executable at startup
